@@ -56,7 +56,7 @@ class _AppScreenState extends State<AppScreen> {
                 child: Row(
                   children: [
                     const Text(
-                      'nadahasnim',
+                      'anaaanov_',
                       style: TextStyle(
                         color: black,
                         fontWeight: FontWeight.w700,
@@ -177,7 +177,7 @@ class _AppScreenState extends State<AppScreen> {
                     const Padding(
                       padding: EdgeInsets.symmetric(horizontal: 20),
                       child: Text(
-                        'nadhasnim',
+                        'Novi Marliana',
                         style: TextStyle(
                           color: black,
                           fontWeight: FontWeight.w600,
@@ -190,7 +190,7 @@ class _AppScreenState extends State<AppScreen> {
                     const Padding(
                       padding: EdgeInsets.symmetric(horizontal: 20),
                       child: Text(
-                        'Your fellow amateur',
+                        'Atlet Baku Pukul',
                         style: TextStyle(
                           color: black,
                           fontSize: 14,
@@ -201,7 +201,7 @@ class _AppScreenState extends State<AppScreen> {
                     const Padding(
                       padding: EdgeInsets.symmetric(horizontal: 20),
                       child: Text(
-                        'solo.to/nadahasnim',
+                        'linktr.ee/anaaanov_',
                         style: TextStyle(
                           color: hyperlinkColor,
                           fontSize: 14,
@@ -259,7 +259,7 @@ class _AppScreenState extends State<AppScreen> {
                                 ),
                               ),
                               const SizedBox(height: 4),
-                              const Text('manipulation'),
+                              const Text('You'),
                             ],
                           ),
                           const SizedBox(width: 14),
@@ -284,7 +284,7 @@ class _AppScreenState extends State<AppScreen> {
                                 ),
                               ),
                               const SizedBox(height: 4),
-                              const Text('BTS II'),
+                              const Text('So'),
                             ],
                           ),
                           const SizedBox(width: 14),
@@ -309,7 +309,7 @@ class _AppScreenState extends State<AppScreen> {
                                 ),
                               ),
                               const SizedBox(height: 4),
-                              const Text('BTS'),
+                              const Text('Cute'),
                             ],
                           ),
                           const SizedBox(width: 14),
@@ -422,7 +422,8 @@ class _AppScreenState extends State<AppScreen> {
                     GridView.builder(
                       shrinkWrap: true,
                       physics: const NeverScrollableScrollPhysics(),
-                      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 3,
                         childAspectRatio: 1 / 1,
                         crossAxisSpacing: 2,
@@ -430,7 +431,7 @@ class _AppScreenState extends State<AppScreen> {
                       ),
                       itemBuilder: (context, index) {
                         final post = listPosts[index];
-              
+
                         return Container(
                           color: hyperlinkColor,
                           child: Image.asset(

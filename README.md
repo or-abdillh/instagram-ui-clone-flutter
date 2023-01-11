@@ -1,16 +1,26 @@
-# instagram_ui_clone
+# Instagram UI Clone
 
-A new Flutter project.
+Ujian Tengah Semester - Pemrograman Mobile Lanjut (Flutter)
 
-## Getting Started
+## Instalasi
+- Buka New Window VS Code
+- Klik "Clone Git Repository"
+- Paste https://github.com/or-abdillh/instagram-ui-clone-flutter
+- Pilih tempat menyimpan project
+- Klik "Select as repository destination"
+- Tunggu proses cloning hingga selesai
+- Klik "Open" pada jendela pop up 
 
-This project is a starting point for a Flutter application.
+## Running
+- Masuk ke file *main.dart*
+- Tekan F5 pada keyboard
+- Tunggu Proses hingga muncul jendela baru Chrome
 
-A few resources to get you started if this is your first Flutter project:
+### Thanks 
+- Support me with a cup of coffee and other snacks [here ..](https://saweria.co/orabdillh)
+- Don't forget to give me star in this repository 🙏🏻🙏🏻
+- See my other projects on instagram [@or.abdillh](http://www.instagram.com/or.abdillh)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Oka R Abdillah ](http://github.com/or-abdillh)
+<br>
+Last edited on : 12/01/2023
