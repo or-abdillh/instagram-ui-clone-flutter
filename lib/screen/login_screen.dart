@@ -9,6 +9,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 // import 'package:instagram_ui_clone/responsive/responsive_layout.dart';
 import 'package:instagram_ui_clone/screen/signup_screen.dart';
 import 'package:instagram_ui_clone/screen/app_screen.dart';
+import 'package:instagram_ui_clone/screen/feed_screen.dart';
 import 'package:instagram_ui_clone/widgets/text_field_input.dart';
 import 'package:instagram_ui_clone/utils/colors.dart';
 
@@ -45,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   route() {
     Navigator.of(context).pushAndRemoveUntil(
-        MaterialPageRoute(builder: (context) => const AppScreen()),
+        MaterialPageRoute(builder: (context) => const FeedScreen()),
         (route) => false);
 
     setState(() {

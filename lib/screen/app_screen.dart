@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:instagram_ui_clone/constants.dart';
+import 'package:instagram_ui_clone/screen/feed_screen.dart';
 
 class AppScreen extends StatefulWidget {
   const AppScreen({Key? key}) : super(key: key);
@@ -450,7 +451,12 @@ class _AppScreenState extends State<AppScreen> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        onTap: (index) {},
+        onTap: (index) {
+          if (index == 0) {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => FeedScreen()));
+          }
+        },
         backgroundColor: white,
         type: BottomNavigationBarType.fixed,
         showSelectedLabels: false,
